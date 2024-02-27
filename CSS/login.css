@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.page{
+    background-color:white;
+    min-height: 500px;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-image: linear-gradient(45deg,#360033,#0b8793);
+    position:relative;
+}
+
+.header{
+    height: 80px;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-color: azure;
+    margin:auto;
+    background-image: linear-gradient(45deg,#536976,#292E49);
+}
+
+.header .name{
+    height: 80px;
+    width: 45%;
+    /* border: 2px solid black; */
+    float: left;
+    color: white;
+    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 20px;
+    
+}
+
+.header .menu{
+    height: 50px;
+    width: 45%;
+    /* border: 2px solid black; */
+    float: right;
+    padding-top: 30px;
+}
+
+.menu a{
+    margin-left:10px ;
+    padding:5px;
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+.login{
+    height: 300px;
+    width: 40%;
+    border: 2px solid rgb(212, 212, 115);
+    background-image: linear-gradient(to right,#182848,#4b6cb7);
+    position: absolute;
+    top: 130px;
+    left: 550px;
+    border-bottom-right-radius: 35px;
+    border-top-left-radius: 35px;
+    border-left: none;
+    border-right:none;
+    box-shadow:rgb(236, 236, 27) 0px 2px;
+}
+
+.login h1{
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.login label{
+    color: white;
+    font-size: 15px;
+    margin-left: 70px;
+}
+input[type=text]{
+    margin-top: 8px;
+    width: 65%;
+    height: 20px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    outline: none;
+}
+
+input[type=password]{
+    margin-top: 8px;
+    width: 65%;
+    height: 20px;
+    margin-left:70px;
+    margin-bottom: 20px;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+input[type=button]{
+    width: 66%;
+    margin-left: 70px;
+    height: 30px;
+    background-color: #0b8793;
+    border: none;
+    box-shadow: 1px 1px 2px white ;
+}
+
+input[type=text]::placeholder{
+    text-align: center;
+    color:white;   
+}
+
+input[type=password]::placeholder{
+    text-align: center;
+    color: white;   
+}
+

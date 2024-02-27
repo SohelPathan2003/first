@@ -1,0 +1,58 @@
+
+*{
+    padding:0px;
+    margin: 0px;
+    
+}
+
+.header{
+    width:90%;
+    height: 150px;
+    background-color:lightseagreen;
+    margin-left: 50px;
+    border-radius: 2%;
+    display: flex;
+}
+
+.header h2{
+    color:white;
+}
+ .divider{
+    margin-left: 10px;
+    height: 70px;
+    align-items: center;
+} 
+ .divider h1{
+    height: 60px;
+    font-size: 60px
+} 
+.lines {
+
+    margin-left: 10px;
+}
+.lines ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu-div {
+    margin-left: 100px;
+    width: 35%;
+    height: 60px;
+}
+
+.menu-div a{
+    text-decoration: none;
+    margin-left: 15px;
+    color:white;
+}
+
+.menu-div a:hover{
+    background-color: white;
+    color: black;
+}
+.call-div{
+    display: flex;
+    width: 20%;
+    height: 70px;
+}

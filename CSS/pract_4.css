@@ -1,0 +1,122 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+.flex-space{
+    display:flex;
+    justify-content: space-between;
+}
+
+.float-right{
+    float:right;
+}
+.float-left{
+    float:left;
+}
+
+.wrapper-div{
+    min-height:120px;
+    width:80%;
+    /* border: 3px solid black; */
+    margin-left:80px;
+   
+}
+/* body{
+    background-image: url(/images/king-kohli.png);
+} */
+.header {
+    width:100%;
+    height:100px;
+    background-color: gray;
+}
+ .header .headline{
+    width:48%;
+    height: 100;
+    /* background-color: red; */
+    /* text-align: center; */
+     /* border: 3px solid gray; */
+}
+.header .headline h1{
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.header .menu{
+    width:48%;
+    height:100px;
+    margin-top:35px;
+    /* border:3px solid black; */
+    /* background-color:rgb(193, 193, 33); */
+}
+.header .menu a{
+    color:white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.menu a:hover{
+    background-color: white;
+    color: black;
+}
+.img{
+    margin-top:10px;
+    width: 100%;
+    height:300px;
+    /* border: 3px solid black; */
+    background-color:lightskyblue;
+}
+.img img{
+    width: 100%;
+    height: 300px;
+}
+.content{
+    margin-top:10px;
+    height:300px;
+    width:100%;
+    /* border: 2px solid black; */
+    background-color: aquamarine;
+}
+.content .update{
+    width:48%;
+    height: 300px;
+    /* border: 2px solid black; */
+    background-color:honeydew;
+}
+.content .details{
+    width:48%;
+    height:300px;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.details .paragraph{
+    width:50%;
+    height:300px;
+    text-align: justify;
+    /* border: 2px solid black; */
+    /* background-color: magenta; */
+}
+.details .paragraph p::first-letter{
+        text-transform: capitalize;
+        color: red;
+        font-size: 30px;
+
+}
+.content .photo-div{
+    width: 50%;
+    height:300px;
+}
+
+.content .photo-div img{
+    width:100%;
+    height:300px;
+}
+
+.footer{
+    margin-top:5px;
+    width:100%;
+    height:50px;
+    background-color: cornflowerblue;
+    text-align: center;
+}

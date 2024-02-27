@@ -1,0 +1,164 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+
+.wrapper{
+    min-height:200px;
+    width: 100%;
+    color: antiquewhite;
+    /* border: 2px solid black; */
+    /* margin-left:100px; */
+}
+.header{
+    height: 60px;
+    width: 100%;;
+    /* border: 2px solid black; */
+    background-color: rgb(60, 102, 157);
+    text-align: center;
+    line-height: 60px;
+}
+
+.header .logo{
+    float:left;
+    width: 20%;
+    height: 60px;
+}
+.header .content1{
+    float:right;
+    width: 78%;
+    height: 60px;
+}
+.header a{
+   
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    margin-left:20px;
+
+}
+.header a:hover{
+    background-color: white;
+    color: black;
+}
+.header .logo img{
+    height:40px;
+    width: 30%;
+    margin-left: 300px;
+    /* line-height: 60px; */
+    margin-top: 10px;
+}
+.slider{
+    height: 400px;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-color: bisque;
+    background:url("/images/couple-image.jpg");
+    background-size: 100% 400px;
+
+}
+
+.slider .content{
+    height:200px;
+    width: 48%;
+    /* border: 2px solid black; */
+    /* background-color: azure; */
+    float:left;
+    margin-top:40px;
+    margin-left: 70px;
+   color: lightyellow;
+}
+.slider .content p{
+    text-align: justify;
+    font-family:monospace;
+    font-size: 15px;
+}
+
+.slider .login{
+
+    float:right;
+    height:300px;
+    width: 30%;
+    /* border: 2px solid black; */
+    /* background: url(/images/login2.jfif);
+    background-size: 100% 300px; */
+
+    background-color:  rgb(60, 102, 157);
+    margin-top: 40px;
+    margin-right:50px;
+}
+.slider .login h2{
+    color: white ;
+    font-size: large;
+    margin-top: 25px;
+    text-align: center;
+}
+.fields1{
+    height: 120px;
+    width: 100%;
+}
+.fields1 .place{
+   
+    width:80%;
+    height: 30px;
+    margin-left: 30px;
+}
+.fields1 p{
+     margin-bottom: 3px;
+    margin-top: 3px;
+    margin-left: 30px;
+}
+
+
+.fields2{
+    width: 100%;
+    height: 60px;
+}
+
+.fields2 .date{
+    float: left;
+    width: 90px;
+    height: 30px;
+    margin-left: 30px;
+}
+.fields2 :nth-child(1){
+    margin-left: 30px;
+}
+.fields2 :nth-child(2)
+{
+    margin-left: 30px;
+}
+.fields2 :nth-child(3)
+{
+    margin-left: 150px;
+    margin-top: -20px;
+}
+.login .submit{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.button{
+    font-size: 20px;
+    background-color:rgb(35, 37, 33) ;
+    color: white;
+    border-radius: 10px;
+    width: 120px;
+    font-family:monospace;
+}
+
+.imgContainer-div{
+    height: 300px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: red;
+}
+.imgContainer-div .blocks{
+    height: 150px;
+    width: 20%;
+    border: 2px solid black;
+    background-color: greenyellow;
+    float: left;
+    margin-left: 12px;
+}
