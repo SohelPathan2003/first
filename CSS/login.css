@@ -26,11 +26,19 @@
     width: 45%;
     /* border: 2px solid black; */
     float: left;
-    color: white;
+    color:white;
     margin-top: 20px;
     font-family:'Times New Roman', Times, serif;
     margin-left: 20px;
+    position: relative;
     
+}
+.name img{
+    position: absolute;
+    height: 70px;
+    width: 100px;
+    left: 220px;
+    top: -20px;
 }
 
 .header .menu{
@@ -48,7 +56,13 @@
     color: white;
     text-decoration: none;
     font-family:'Times New Roman', Times, serif;
+    border-radius: 4px;
 
+}
+
+.menu a:hover{
+    color: black;
+    background-color:white;
 }
 
 .login{
@@ -89,6 +103,10 @@ input[type=text]{
     border-bottom: 2px solid white;
     color: white;
     outline: none;
+    background-image: url(/images/user-solid.svg);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    padding-left: 40px;
 }
 
 input[type=password]{
@@ -102,6 +120,11 @@ input[type=password]{
     outline: none;
     border-bottom: 2px solid white;
     color: white;
+
+    background-image: url(/images/unlock-solid.svg);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    padding-left: 40px;
 }
 
 input[type=button]{
